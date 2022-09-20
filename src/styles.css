@@ -1,0 +1,446 @@
+@font-face {
+    font-family: 'muli', cursive;
+    src: url("https://use.typekit.net/ugc4die.css")
+}
+
+.navbar {
+    display: flex;
+    /* width: 100%; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'muli', cursive;
+    margin-right: 35px;
+}
+
+.link:visited {
+    color: black
+}
+
+.link:active {
+    color: black
+}
+
+.link:hover {
+    border-bottom: 1px solid;
+}
+
+.link:link {
+    color: black
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'muli', cursive;
+    font-weight: 800
+}
+
+.sale_h {
+    font-family: 'muli', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+/* .sale{ */
+/* display: flex; */
+/* justify-content: space-around; */
+/* margin-top: 100px; */
+/* } */
+.sale_p {
+    margin-left: 90px;
+    margin-top: 240px;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.sale_png {
+    margin-top: 20px;
+
+    height: 400px;
+}
+
+.sale_male_png {
+    height: 400px;
+}
+
+.sale_male {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sale_male_p {
+    /* margin-top: 240px; */
+    font-weight: 800;
+    font-family: 'muli', cursive;
+
+    margin-top: 140px;
+    /* margin-right:90px */
+
+}
+
+
+.shoes_male_female {
+    display: flex;
+}
+
+.shoes_male_female {
+    display: flex;
+}
+
+.shoes {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+    font-weight: 800;
+
+    font-family: 'muli', cursive;
+
+}
+
+.shoes_png {
+    height: 400px;
+    display: flex;
+    /* background-color: black; */
+    margin-right: 15px;
+}
+
+.shoes_female {
+    display: flex;
+    height: 400px;
+
+    margin-left: 15px;
+}
+
+.shoes_p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* align-content: center; */
+    margin-right: 130px;
+}
+
+.shoes_female_p {
+    display: flex;
+
+    align-items: center;
+    margin-left: 130px;
+
+    justify-content: center;
+}
+
+.contact {
+    font-family: 'muli', cursive;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+
+.contact_h {
+    margin-top: 50px;
+    font-family: 'muli', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_logo {
+    height: 100px;
+    width: 100px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.kz_flag {
+    height: 32px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    font-family: 'muli', cursive;
+    font-weight: 800;
+}
+
+.email_num {
+    padding-left: 145px;
+}
+
+.info_user {
+    /* display:flex;
+    justify-content: center; */
+    /* align-content: center; */
+}
+
+.profile {
+    font-family: 'muli', cursive;
+    font-weight: 800;
+}
+
+.info_pfp {
+    border-radius: 50%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info_name {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.info_name_button {
+    /* margin-left: 30px; */
+    /* font-weight: 100px; */
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    height: 50px;
+    margin-top: 6px;
+    background: #FFFFFF;
+
+}
+
+.info_name_button:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.info_h {
+    display: flex;
+    justify-content: center;
+}
+
+.info_name_input,
+.info_name_input::before,
+.info_name_input::after {
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    font-family: 'muli', cursive;
+    font-weight: 800;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    /* border:0; */
+    /* box-shadow:0 0 15px 4px rgba(0,0,0,0.06); */
+}
+
+.info_name_p {
+    margin-right: 30px;
+}
+
+span,
+button {
+    /* color: red; */
+    font-family: 'muli', cursive;
+    font-weight: 800;
+}
+
+.info_email {
+    display: flex;
+    justify-content: center;
+}
+
+.signout {
+    display: flex;
+    justify-content: center;
+}
+
+.signout_btn {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.signout_btn:hover {
+    color: #FFFFFF;
+    background: #000000;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+}
+
+.signin_h {
+    display: flex;
+    justify-content: center;
+    font-family: 'muli', cursive;
+    font-weight: 800;
+}
+
+.prodcuts_h {
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    font-family: 'muli', cursive;
+    font-weight: 800;
+}
+
+.products_list {
+    /* display: flex; */
+}
+
+.products_img {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'muli', cursive;
+    font-weight: 800;
+
+}
+
+.products_images {
+    height: 200px;
+    width: 200px;
+    /* margin-left: 30px; */
+}
+
+.products_name {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.products_price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.products_button {
+    /* display: flex;
+    justify-content: space-around; */
+    /* height: 32px; */
+    /* background: #000000; */
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.products_button:hover {
+    /* color: #FFFFFF; */
+    /* weight: 148px; */
+    /* height: 48px; */
+    transition: 0.7s;
+}
+
+.cart_logo {
+    height: 32px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    font-family: 'muli', cursive;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+    body{
+        width: 100%;
+    }
+    .navbar {
+        
+        width: 500px;
+
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+    .link {
+    }
+    .logo{
+        display: flex;
+
+        justify-content: center;
+        /* margin-left: 75px; */
+        /* margin-right: 50px; */
+    }
+    .sale_h{
+        display: flex;
+        justify-content: center;
+    }
+    .sale_png{
+        /* width: 100%    */
+        height: 270px;
+        display: flex;
+        justify-content: center;
+    }
+    .sale_p{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .sale_male_png{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top:50px;
+    }
+    .sale_male_p{
+        display: flex;
+        /* justify-content: center; */
+        /* align-content: center; */
+        /* margin-bottom: 10px; */
+        /* font-size: 12px; */
+    }
+    .shoes{
+        /* height: ; */
+        width: 1px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .shoes_png{
+        
+        height: 250px;
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        margin-left: 405px;
+        /* margin-top: 55px; */
+    }
+    .shoes_p{
+        margin-left: 450px;
+        /* font-size: 100px; */
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .shoes_female{
+        /* height: 250px; */
+
+        /* display: flex;
+        flex-direction: column; */
+    }
+}
+
+/* /* @media screen and (min-weigth:480px) {
+    body{
+        background-color: aqua;
+    } */
+/* s */
